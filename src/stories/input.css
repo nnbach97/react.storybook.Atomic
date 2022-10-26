@@ -1,0 +1,22 @@
+.storybook-input {
+  border-radius: 3em;
+  padding: 6px 12px;
+  font-size: 12px;
+  line-height: 16px;
+  background: transparent;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  box-shadow: rgb(0 0 0 / 10%) 0px 0px 0px 1px inset;
+  color: black;
+}
+
+.storybook-input:focus {
+  box-shadow: rgb(30 167 253) 0px 0px 0px 1px inset;
+}
+
+.storybook-input:disabled {
+  opacity: 0.4;
+  background: #dcd9d9;
+  cursor: not-allowed;
+}
